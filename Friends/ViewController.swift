@@ -26,13 +26,36 @@ class ViewController: UIViewController {
         if nameEntered != "" && phoneNumberEntered != "" {
             contactsManager.createContact(name: nameEntered, phoneNumber: phoneNumberEntered)
             
-            let index = contactsManager.contacts.count - 1
+            position = moveIndex(to: .last, list: contactsManager.contacts)
             
-            let name = contactsManager.contacts[index].name
-            let phone = contactsManager.contacts[index].phoneNumber
+            let name = contactsManager.contacts[position].name
+            let phone = contactsManager.contacts[position].phoneNumber
             
             textView.text = "\(name): \(phone)"
+            
+            print(contactsManager.contacts)
         }
     }
+    
+    @IBAction func previousButton(_ sender: Any) {
+        position = moveIndex(to: .previous, list: contactsManager.contacts)
+        
+        let name = contactsManager.contacts[position].name
+        let phone = contactsManager.contacts[position].phoneNumber
+        
+        textView.text = "\(name): \(phone)"
+    }
+    
+    @IBAction func nextButton(_ sender: Any) {
+        position = moveIndex(to: .next, list: contactsManager.contacts)
+        
+        let name = contactsManager.contacts[position].name
+        let phone = contactsManager.contacts[position].phoneNumber
+        
+        textView.text = "\(name): \(phone)"
+    }
+    
+    
+    
 }
 

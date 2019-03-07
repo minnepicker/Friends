@@ -10,10 +10,8 @@ class ContactsManager {
     var contacts: [Contact] = []
     
     
-    func createContact(name: String, phoneNumber:String) -> Contact{
+    func createContact(name: String, phoneNumber:String) {
         let newContact: Contact = Contact(name: name, phoneNumber: phoneNumber)
         contacts.append(newContact)
-        
-        return newContact
     }
 }

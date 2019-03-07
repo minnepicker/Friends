@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06E4B5B223161C80027F929 /* previousNextButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E4B5A223161C80027F929 /* previousNextButtons.swift */; };
 		C0BD6B62223040A200719D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD6B61223040A200719D36 /* AppDelegate.swift */; };
 		C0BD6B64223040A200719D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD6B63223040A200719D36 /* ViewController.swift */; };
 		C0BD6B67223040A200719D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BD6B65223040A200719D36 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C06E4B5A223161C80027F929 /* previousNextButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previousNextButtons.swift; sourceTree = "<group>"; };
 		C0BD6B5E223040A200719D36 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BD6B61223040A200719D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0BD6B63223040A200719D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C0BD6B61223040A200719D36 /* AppDelegate.swift */,
 				C0BD6B63223040A200719D36 /* ViewController.swift */,
 				C0BD6B65223040A200719D36 /* Main.storyboard */,
+				C06E4B5A223161C80027F929 /* previousNextButtons.swift */,
 				C0BD6B742230450B00719D36 /* Contact.swift */,
 				C0BD6B76223045A300719D36 /* contactManager.swift */,
 				C0BD6B68223040A400719D36 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06E4B5B223161C80027F929 /* previousNextButtons.swift in Sources */,
 				C0BD6B752230450B00719D36 /* Contact.swift in Sources */,
 				C0BD6B64223040A200719D36 /* ViewController.swift in Sources */,
 				C0BD6B77223045A300719D36 /* contactManager.swift in Sources */,
