@@ -33,8 +33,11 @@ class ViewController: UIViewController {
             
             textView.text = "\(name): \(phone)"
             
-            print(contactsManager.contacts)
+            textField1.text = ""
+            textField2.text = ""
         }
+            
+        print(contactsManager.contacts)
     }
     
     @IBAction func previousButton(_ sender: Any) {
